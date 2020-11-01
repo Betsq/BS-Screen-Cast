@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BS_Screen_Cast"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="BS Screen Cast" Height="450" Width="800" WindowStyle="ThreeDBorderWindow" Background="#FFA44A4A">
+    <Grid x:Name="MainView" Background="White">
+        <TextBlock x:Name="SavingScreenshotOutput" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Вывод текста об успешном сохранение скриншота" VerticalAlignment="Top" Height="35" Width="772" Background="#FFFFA21D"/>
+        <Button x:Name="HALLo" Content="Куда сохранить файл" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="134" Click="Button_Click"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="160,50,0,0" VerticalAlignment="Top" Width="153" Click="Button_Click_1"/>
     </Grid>
+
 </Window>
